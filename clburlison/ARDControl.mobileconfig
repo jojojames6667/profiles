@@ -2,54 +2,42 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-  <key>PayloadIdentifier</key>
-  <string>com.example.remotemanagement</string>
-  <key>PayloadRemovalDisallowed</key>
-  <true/>
-  <key>PayloadScope</key>
-  <string>System</string>
-  <key>PayloadType</key>
-  <string>Configuration</string>
-  <key>PayloadUUID</key>
-  <string>6AE5512A-6860-4AC4-8CF2-8A5E5413462F</string>
-  <key>PayloadOrganization</key>
-  <string>Example Co</string>
-  <key>PayloadVersion</key>
-  <integer>1</integer>
-  <key>PayloadDisplayName</key>
-  <string>Remote Management Admin</string>
-  <key>PayloadDescription</key>
-  <string>Allow Remote Control when Apple Remote Desktop is open.</string>
-  <key>PayloadContent</key>
-  <array>
-    <dict>
-      <key>PayloadContent</key>
-      <dict>
-        <key>com.apple.RemoteManagement</key>
-        <dict>
-          <key>Forced</key>
-          <array>
-            <dict>
-              <key>mcx_preference_settings</key>
-              <dict>
-                <key>AdminConsoleAllowsRemoteControl</key>
-                <true/>
-              </dict>
-            </dict>
-          </array>
-        </dict>
-      </dict>
-      <key>PayloadType</key>
-      <string>com.apple.ManagedClient.preferences</string>
-      <key>PayloadVersion</key>
-      <integer>1</integer>
-      <key>PayloadIdentifier</key>
-      <string>com.example.remotemanagement.6AE5512A-6860-4AC4-8CF2-8A5E5413462F.customsettings.B6E8C3A0-C5F4-4817-AB65-AC9065B9B420</string>
-      <key>PayloadUUID</key>
-      <string>B6E8C3A0-C5F4-4817-AB65-AC9065B9B420</string>
-      <key>PayloadEnabled</key>
-      <true/>
-    </dict>
-  </array>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>Configures restrictions</string>
+			<key>PayloadDisplayName</key>
+			<string>Restrictions</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.applicationaccess.A1E96E17-A7AE-4B11-B9AC-16514FC3CF10</string>
+			<key>PayloadType</key>
+			<string>com.apple.applicationaccess</string>
+			<key>PayloadUUID</key>
+			<string>A1E96E17-A7AE-4B11-B9AC-16514FC3CF10</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>allowNFC</key>
+			<false/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Disables App tracking requests, personalised ads, diagnostic &amp; usage data sending</string>
+	<key>PayloadDisplayName</key>
+	<string>Privacy2</string>
+	<key>PayloadIdentifier</key>
+	<string>mbp.A35DAABG-EAB9-4525-9F17-9EA2652EE756</string>
+	<key>PayloadOrganization</key>
+	<string>dcRUSTy</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>6B21CCB0-F4B9-4915-8065-35DD2163F5AD</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadScope</key>
+	<string>System</string>
 </dict>
 </plist>
